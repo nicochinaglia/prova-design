@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dia nacional da comunidade Árabe</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+    <script src="scripts/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cartao">
+        <div class="cima">
+          <img src="images/retacima.png" alt="">
+        </div>
+        <div class="mulher">
+          <img src="images/mulher.png" id="mulher" onclick="risada()" alt="">
+        </div>
+        <div class="baixo">
+          <img src="images/retabaixo.png" alt="">
+        </div>
+        <div class="data">
+          <img src="images/data.png" alt="">
+        </div>
+        <div class="texto">
+          <img src="images/textoarabe.png" alt="">
+        </div>
+        <div class="lampmenor">
+          <img src="images/lampmenor.png" id="minilamp" onclick="clicklamp()" alt="">
+        </div>
+        <div class="lampmaior">
+          <img src="images/lampmaior.png" id="biglamp" onclick="clicar()" alt="">
+        </div>
+        <div class="info">
+          <p>Clique na mulher e nas lâmpadas <br>para desvendar os mistérios da Arábia...</p>
+        </div>
+      </div>
+    </div>
+    <audio id="tocamulher">
+      <source src="midias/sound-effect.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="bgSom" autoplay loop>
+      <source src="midias/fundo.mp3" type="audio/mpeg">
+    </audio>
+
+
+  </body>
+</html>

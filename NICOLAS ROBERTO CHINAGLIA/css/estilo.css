@@ -1,0 +1,84 @@
+.container{
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/bg.png);
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+
+.mulher{
+  position: absolute;
+  margin-top: -59px;
+}
+
+.baixo{
+  position: absolute;
+  margin-top: 224px;
+  margin-left: -1px;
+}
+
+.data{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 330px;
+  animation: movedata 2s linear infinite;
+}
+
+.texto{
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 110px;
+}
+
+.lampmenor{
+  position: absolute;
+  margin-left: 336px;
+  margin-top: -38px;
+}
+
+.lampmaior{
+  position: absolute;
+  margin-left: 220px;
+  margin-top: -37px;
+}
+
+.animalampmenor{
+  animation: mexelampmini 1s linear infinite
+}
+
+.animalampmaior{
+  animation: mexelamp 2s linear infinite;
+}
+
+.info{
+  position: absolute;
+  color: white;
+  margin-top: 270px;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+@keyframes movedata {
+  0%{transform: scale(0.5);}
+  50%{transform: scale(1);}
+  100%{transform: scale(0.5);}
+}
+
+@keyframes mexelamp {
+  0%{transition: rotate(0deg);}
+  25%{transform: rotate(5deg);}
+  50%{transform: rotate(10deg);}
+  75%{transform: rotate(5deg);}
+  100%{transform: rotate(0deg);}
+}
+
+@keyframes mexelampmini {
+  0%{transition: rotate(0deg);}
+  25%{transform: rotate(5deg);}
+  50%{transform: rotate(15deg);}
+  75%{transform: rotate(5deg);}
+  100%{transform: rotate(0deg);}
+}
